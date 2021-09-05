@@ -1,0 +1,348 @@
+body{
+	background-color:#000;
+	font-family: Arial;
+
+}
+
+.container{
+	background-image: url(../images/bg.jpg);
+    height: 930px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: block;
+    background-position: center;
+    padding-top: 27px;
+
+}
+
+.navbar{
+    background-color: #770000;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 55px;
+    padding: 10px;
+    font-size: 16px;
+    text-shadow: 1px 1px 20px;
+}
+
+.navbar ul{
+    width: 629px;
+    display: inline;
+    float: right;
+}
+
+.navbar ul li{
+	display: inline-block;
+    width: 100px;
+}
+.navbar ul li img{
+	width: 84px;
+    border-radius: 8px;
+}
+
+.navbar ul li a{
+	text-decoration:none;
+    color: #fff;
+}
+
+.logo{
+    width: 70px;
+    border-radius: 8px;
+    display: inline;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.content{
+	width: 1000px;
+    height: 785px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 0 0px 20px 20px;
+    box-shadow: 3px 3px 10px rgb(2000, 0, 0);
+
+}
+
+.footer{
+    width: 1000px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+table{
+    padding: 5px 30px;
+    padding-top: 20px;
+}
+
+h3{
+	padding-top: 25px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+label, .textbox,textarea{
+    display: block;
+    margin: 5px;
+    width: 100%;
+}
+
+textarea{
+    height: 84px;
+}
+
+.orderform{
+	width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thankyou{
+    width: 353px;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.ordertable{
+    width: 700px;
+    padding: 0px;
+    margin:0 auto;
+}
+
+.ordertable td, .ordertable th{
+    text-align:center;
+    padding:10px;
+}
+
+.sushi{
+   background-image: url(../images/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    width: 372px;
+    height: 220px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 10px
+}
+.navbar li a:hover{
+    font-size:20px;
+    color:#ff7373;
+    font-family:rockwell;
+
+
+}
+.definition{
+    padding:15px;
+    width:263px;
+
+}
+.theme{
+
+    font-family: chiller;
+    font-size:25px;
+    color:black;
+    float:center;
+    text-align: center;
+}
+.sushi1{
+    
+    background-image: url(../images/chef-at-teppan-edo.jpg);
+    background-repeat: no-repeat;
+    width: 372px;
+    height: 220px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 10px
+}
+.td{
+    width:20px;
+}
+.table{
+    margin-left:85px;
+}
+.color{
+    color:red;
+}
+.size{
+    font-size:15px;
+}
+.icon{
+    border:0px;
+    border-radius: 10px;
+    width:100px;
+    height:50px;
+    color:white;
+    text-decoration:none;
+    padding:9px;
+    padding-top:5px;
+    background-color:red;
+}
+.icon:hover{
+    border:0px;
+    border-radius: 10px;
+    width:105px;
+    height:55px;
+    box-shadow: 2px 3px 10px rgb(9000, 0, 0);
+    font-size:18px;
+    padding:9px;
+    padding-top:5px;
+}
+.service{
+    background-image: url(../images/service.jpg);
+    background-repeat: no-repeat;
+    width: 372px;
+    height: 277px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 10px;
+    margin:20px;
+}
+.reservation{
+    margin-right:20px;
+    float:right; 
+    color:black;
+    padding:10px;
+}
+.reservation:hover{
+    font-size:17px;
+    color:red;
+    box-shadow: 0px 3px 10px rgb(1000, 0, 0);
+}
+.reserve{
+    margin:10px;
+    float:left;
+    width:900px;
+    font-size: 18px;
+}
+.reserves{
+
+    background-image: url(../images/Ogawa-2.jpg);
+    background-repeat: no-repeat;
+    width: 372px;
+    height: 277px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 10px;
+    margin:20px;
+}
+.navbar img:hover{
+    width: 72px;
+    border-radius: 8px;
+    display: inline;
+    margin-top: 0px;
+    margin-left: 20px
+    box-shadow: 3px 3px 10px rgb(2000, 0, 0);
+}
+.login{
+	float:right;
+	margin:auto;
+	padding:10px;
+    margin-right:30px;
+}
+.login-details a{
+	text-decoration:none;
+    font-family:sans-serif;
+}
+.logout{
+    text-align:center;
+    background-color:#FF5C5C;
+    width:67px;
+    height:24px;
+    border-radius:10px;
+    margin-left:69px;
+}
+.logout:hover{
+    color:#ff7373;
+    text-align:center;
+    background-color:red;
+    width:68px;
+    height:25px;
+    border-radius:10px;
+}
+.logout a{
+    color:white;
+    text-decoration:none;
+}
+
+.admin{
+    color:green;
+    font-weight:bold;
+}
+.admin:hover{
+    color:red;
+    text-decoration:underline;
+    font-weight:bold;
+}
+.acc-details{
+    text-align:center;
+    float:center;
+    margin-left:200px;
+}
+.form{
+    width:400px;
+    height:100px;
+    text-align:center;
+    margin-left:280px;   
+}
+.hex-green{
+    text-align:center;
+    background-color:#5CCC6B;
+    width:67px;
+    height:24px;
+    border-radius:10px;
+    margin-left:69px;
+}
+.hex-green a{
+    color:white;
+    text-decoration:none;
+}
+.hex-green:hover{
+    color:#ff7373;
+    text-align:center;
+    background-color:green;
+    width:68px;
+    height:25px;
+    border-radius:10px;
+}
+.hex-orange{
+    text-align:center;
+    background-color:#EEB54A;
+    width:67px;
+    height:24px;
+    border-radius:10px;
+    margin-left:69px;
+}
+.hex-orange:hover{
+    color:#ff7373;
+    text-align:center;
+    background-color:orange;
+    width:68px;
+    height:25px;
+    border-radius:10px;
+}
+.hex-orange a{
+    color:white;
+    text-decoration:none;
+}
+.redhex{
+    color:red;
+    font-family: comic-sans;
+    font-size:17px;
+}
+.fntweight{
+    color:green;
+    font-family: comic-sans;
+    font-size:17px;
+    font-weight: bold;
+}
+.reg{
+    color:#879eb0;
+    text-decoration: none;
+}
+.reg:hover{
+    color:blue;
+    text-decoration: underline;
+}
